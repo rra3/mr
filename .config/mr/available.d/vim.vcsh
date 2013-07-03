@@ -1,0 +1,6 @@
+[$HOME/.config/vcsh/repo.d/vim.git]
+checkout = vcsh clone https://github.com/rra3/vim vim
+update   = vcsh run vim git pull
+push     = vcsh run vim git push
+status   = vcsh run vim git status
+gc       = vcsh run vim git gc

@@ -1,2 +1,6 @@
 [$HOME/.config/vcsh/repo.d/zsh.git]
 checkout = vcsh clone https://github.com/rra3/zsh zsh
+update   = vcsh run zsh git pull
+push     = vcsh run zsh git push
+status   = vcsh run zsh git status
+gc       = vcsh run zsh git gc
